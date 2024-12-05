@@ -78,12 +78,15 @@ int main (int argc, char * const argv[]) {
                 
             case 'u':
                 isSigned = false;
+                break;
                 
             case 'l':
                 bits64 = true;
+                break;
                 
             case 'i':
                 bits64 = false;
+                break;
                 
             default:
                 showUsage();
